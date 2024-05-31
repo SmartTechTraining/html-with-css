@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="/Users/spurge/personal_projects/CSS/html-site-with-css/styles/index.css">
+  </head>
+  <body>
+    <!-- Product Carousel [Flex Items] -->
+    
+    <div class="product-carousel-container">
+      <script>
+        for(let i = 0; i < 50; i++) {
+          document.write('<div class="product-carousel__item">');
+          document.write('<img src="https://paragonsports.vtexassets.com/arquivos/ids/290856-300-300?v=637995397133770000&width=300&height=300&aspect=true" alt="Product 1">');
+          document.write(`<h3>Product-${i + 1} </h3>`);
+          document.write(`<p>Product Description - ${i + 1}</p>`);
+          document.write(`<p>Price: ${(i+1) * 100}</p>`);
+          document.write('</div>');
+        }
+      </script>
+    </div>
+  </body>
+</html>

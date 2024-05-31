@@ -5,7 +5,6 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles/index.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <style>
     /* CSS Naming Conventions */
     /* 
@@ -17,24 +16,34 @@
 </head>
 
   <body>
-    <nav style="background-color: #333; overflow: hidden;">
+    <nav class="navbar">
       <ul class="navbar-list">
         <li><a href="/Users/spurge/personal_projects/CSS/html-site-with-css/pages/articles.html">Articles</a></li>
         <li><a href="pages/about.html">About</a></li>
         <li><a href="pages/contact.html">Contact</a></li>
       </ul>
     </nav>
-    <div class="home-page-header">
+    <!-- <div class="home-page-header">
       <h1 class="home-page-header">Home Page</h1>
       <p>Welcome to the Home Page</p>
-    </div>
-    <div class="image-container">
+    </div> -->
+    <!-- <div class="image-container">
       <source srcset="images/work-in-ofc.png" media="(max-width:600px)">
       <img src="images/html-dev.avif" alt="Work in Office">
 
+    </div> -->
+    <!-- Home Page Banner -->
+    <div class="home-page-banner-container">
+      <div class="banner-image-section">
+        <img src="/Users/spurge/personal_projects/CSS/html-site-with-css/images/stadium-1.jpeg" alt="Home Page Banner">
+      </div>
+      <div class="banner-text-section">
+        <h2>Home Page Banner</h2>
+        <p>Home Page Banner Description</p>
+        <a class="banner-button" href="/Users/spurge/personal_projects/CSS/html-site-with-css/pages/product-listing.html">Trending Products</a>
+      </div>
     </div>
     <div class="flex-container">
-      <img src="/assets/icons/bootstrap.svg" alt="Bootstrap" width="32" height="32">
       <div>
         <h3>What is Lorem Ipsum?</h3>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
